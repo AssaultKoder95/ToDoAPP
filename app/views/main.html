@@ -1,0 +1,26 @@
+<div class="text-center">
+  <div class="jumbotron">
+    <h2> To Do App </h2>
+    <p> A simple to do app written in node & angular </p>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <h3> Notes Listing </h3>
+      <ul style="text-align:left">
+        <li ng-repeat="items in mainctrl.notes">{{items.name}}</li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <h3> Add Notes </h3>
+      <form class="form-group" ng-submit="mainctrl.addNotes()" name="notesform">
+        <input class="form-control" name="name" placeholder="name" ng-model="mainctrl.name" class="m-t-10" required/> <br>
+        <textarea class="form-control" placeholder="body" name="body" ng-model="mainctrl.body" class="m-t-10" required> </textarea> <br>
+        <button type="submit" class="btn btn-lg btn-success" ng-disabled="notesform.$invalid" class="m-t-10"> Submit </button>
+      </form>
+    </div>
+    <div class="col-md-4">
+      <h3> Delete All Notes </h3>
+      <button type="submit" ng-click="mainctrl.deleteNotes()" class="btn btn-danger btn-lg"> Delete </button>
+    </div>
+  </div>
+</div>
