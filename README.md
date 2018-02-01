@@ -1,11 +1,15 @@
-# ToDoApp ->
+# ToDoApp
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.16.0.
-
-## General Information
+## General
 
 This is the front end of the application written in AngularJS, maintained via NPM.
+The backend is supported by NodeJS & Express.
+
+General Features include
+* 1. Listing of notes 
+* 2. Adding new notes
+* 3. Removing notes
+* 4. Editing notes
 
 To install dependencies, do `npm install`.
 
@@ -19,7 +23,7 @@ Running `grunt test` will run the unit tests with karma.
 
 ## Future 
 
-[ ] Add Filter for Notes
-[ ] Add Text Editor for Notes
-[ ] Add Support for attaching Images
+*[ ] Add Filter for Notes
+*[ ] Add Text Editor for Notes
+*[ ] Add Support for attaching Images
 
