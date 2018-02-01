@@ -6,10 +6,10 @@ This is the front end of the application written in AngularJS, maintained via NP
 The backend is supported by NodeJS & Express.
 
 General Features include
-* 1. Listing of notes 
-* 2. Adding new notes
-* 3. Removing notes
-* 4. Editing notes
+*  Listing of notes 
+*  Adding new notes
+*  Removing notes
+*  Editing notes
 
 To install dependencies, do `npm install`.
 
@@ -23,7 +23,7 @@ Running `grunt test` will run the unit tests with karma.
 
 ## Future 
 
-*[ ] Add Filter for Notes
-*[ ] Add Text Editor for Notes
-*[ ] Add Support for attaching Images
+* Add Filter for Notes
+* Add Text Editor for Notes
+* Add Support for attaching Images
 
