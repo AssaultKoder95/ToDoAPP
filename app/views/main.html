@@ -7,7 +7,7 @@
     <div class="col-md-4">
       <h3> Notes Listing </h3>
       <ul style="text-align:left">
-        <li ng-repeat="items in mainctrl.notes">{{items.name}}</li>
+        <li ng-repeat="items in mainctrl.notes"><a href="/{{items._id}}">{{items.name}}</a></li>
       </ul>
     </div>
     <div class="col-md-4">
